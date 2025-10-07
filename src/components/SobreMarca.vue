@@ -36,11 +36,15 @@
   grid-column: 1/2;
   grid-row: 1/2;
   background: #242424;
+  font-size: 15px;
+  padding: 20px;
 }
 .equipe {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   background: #242424;
+  font-size: 15px;
+  padding: 20px;
 }
 
 </style>

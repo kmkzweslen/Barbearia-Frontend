@@ -1,10 +1,10 @@
-<template>
+                          ^<template>
   <section class="hero">
     <div class="hero-background"></div>
     <div class="hero-content">
-      <div class="hero-logo">△ LOGO</div>
-      <div class="hero-arrow left">‹</div>
-      <div class="hero-arrow right">›</div>
+      <div class="hero-logo">.</div>
+      <div class="hero-arrow left"><</div>
+      <div class="hero-arrow right">></div>
     </div>
   </section>
 </template>
@@ -20,7 +20,7 @@
 .hero-background {
   width: 100%;
   height: 100%;
-  background: #222;
+  background: url('src/assets/bg-hero.png') center/cover no-repeat;
   position: absolute;
   top: 0; left: 0;
   opacity: 0.6;
@@ -34,8 +34,10 @@
   justify-content: center;
 }
 .hero-logo {
+  width: 600px;
+  height: 500px;
   color: #fff;
-  font-size: 3rem;
+  font-size: 1px;
   margin: auto;
 }
 .hero-arrow {

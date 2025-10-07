@@ -7,7 +7,7 @@
         <li><a href="#">BARBA & CABELO</a></li>
         <li><a href="#">AGENDE</a></li>
       </ul>
-      <div class="logo-placeholder">△ LOGO</div>
+      <div class="logo-placeholder"></div>
     </nav>
   </header>
 </template>
@@ -30,6 +30,7 @@
   font-weight: 700;
 }
 .logo-placeholder {
+  background: url('src/assets/logo.png') center/contain no-repeat;
   margin-left: 48px;
   font-size: 2rem;
   color: #fff;
